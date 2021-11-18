@@ -28,18 +28,20 @@ p {
 }
 
 .about {
-    padding: 0em 5em;
+    padding: 5em 5em;
     display: grid;
-    height: 50vh;
+    min-height: 50vh;
+    height: auto;
     width: 100vw;
     place-items: center;
 }
 
 .services {
-    padding: 0em 5em;
+    padding: 5em 5em;
     display: grid;
     color: white;
-    height: 40vh;
+    min-height: 50vh;
+    height: auto;
     width: 100vw;
     background-image: url(/static/images/assets/backgrounds/s_image.jpg);
     place-items: center;
@@ -73,12 +75,13 @@ p {
 }
 
 .contact {
-    height: 50vh;
+    min-height: 50vh;
+    height: auto;
     background-image: url(/static/images/assets/backgrounds/c_image.jpg);
 }
 
 .form_container {
-    padding: 5em 10em;
+    padding-right: clamp(2em, 10em, 50em);
 }
 
 .row {
@@ -88,5 +91,4 @@ p {
 footer {
     display: grid;
     place-items: center;
-    padding: 0.5em;
 }
