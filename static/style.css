@@ -72,11 +72,6 @@ p {
     max-height: 150em;
 }
 
-footer {
-    display: grid;
-    place-items: center;
-}
-
 .contact {
     height: 50vh;
     background-image: url(/static/images/assets/backgrounds/c_image.jpg);
@@ -88,4 +83,10 @@ footer {
 
 .row {
     padding: 1.5em 0em;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 0.5em;
 }
