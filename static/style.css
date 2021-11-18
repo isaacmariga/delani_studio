@@ -1,3 +1,40 @@
-.container {
-    background-color: black;
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    align-self: center;
+}
+
+.hero {
+    height: 80vh;
+    width: auto;
+    background-image: url(/static/images/assets/backgrounds/h_img.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.about {
+    height: 40vh;
+    width: 100vw;
+}
+
+.services {
+    color: white;
+    height: 40vh;
+    width: 100vw;
+    background-image: url(/static/images/assets/backgrounds/s_image.jpg);
 }
