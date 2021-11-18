@@ -1,137 +1,150 @@
-* {
-    padding: 0%;
-    margin: 0%;
-    border: 0%;
-}
-
-h1,
-h2,
-h3,
-p {
-    text-align: center;
-    align-self: center;
-}
-
-.hero {
-    display: grid;
-    height: 80vh;
-    width: auto;
-    background-image: url(/static/images/assets/backgrounds/h_img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    place-items: center;
-}
-
-.hero-container {
-    display: grid;
-    place-items: center;
-    color: white;
-}
-
-.mouse {
-    height: 3em;
-}
-
-.about {
-    padding: 5em 5em;
-    display: grid;
-    min-height: 50vh;
-    height: auto;
-    width: 100vw;
-    place-items: center;
-}
-
-.services {
-    padding: 5em 5em;
-    display: grid;
-    color: white;
-    min-height: 50vh;
-    height: auto;
-    width: 100vw;
-    background-image: url(/static/images/assets/backgrounds/s_image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    place-items: center;
-}
-
-.services-container {
-    display: grid;
-    place-items: center;
-}
-
-.what {
-    color: black;
-    padding: 5em;
-    min-height: 50vh;
-    max-height: auto;
-}
-
-.what_container {
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 2em;
-    place-items: center;
-}
-
-.what_container>.what_items {
-    padding: 5em;
-    color: black;
-}
-
-.portfolio_container {
-    height: auto;
-    display: grid;
-    gap: 5em;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    padding: 5em;
-    place-items: center;
-}
-
-.portfolio_image {
-    max-height: 150em;
-}
-
-.contact {
-    min-height: 70vh;
-    height: auto;
-    background-image: url(/static/images/assets/backgrounds/c_image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.form_container {
-    padding-top: 5em;
-    padding-right: clamp(2em, 10%, 50em);
-    padding-left: clamp(2em, 10%, 50em);
-}
-
-.row {
-    padding: 1.5em 0em;
-}
-
-footer {
-    display: grid;
-    place-items: center;
-    padding: 0.5em;
-}
-
-#design_text {
-    display: none;
-}
-
-#development_text {
-    display: none;
-}
-
-#product_text {
-    display: none;
-}
-
-.what_items {
-    cursor: pointer;
-}
-
-.work_text {
-    display: none;
-}
+    * {
+        padding: 0%;
+        margin: 0%;
+        border: 0%;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p {
+        text-align: center;
+        align-self: center;
+    }
+    
+    .hero {
+        display: grid;
+        height: 80vh;
+        width: auto;
+        background-image: url(/static/images/assets/backgrounds/h_img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        place-items: center;
+    }
+    
+    .hero-container {
+        display: grid;
+        place-items: center;
+        color: white;
+    }
+    
+    .mouse {
+        height: 3em;
+    }
+    
+    .about {
+        padding: 5em 5em;
+        display: grid;
+        min-height: 50vh;
+        height: auto;
+        width: 100vw;
+        place-items: center;
+    }
+    
+    .services {
+        padding: 5em 5em;
+        display: grid;
+        color: white;
+        min-height: 50vh;
+        height: auto;
+        width: 100vw;
+        background-image: url(/static/images/assets/backgrounds/s_image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        place-items: center;
+    }
+    
+    .services-container {
+        display: grid;
+        place-items: center;
+    }
+    
+    .what {
+        color: black;
+        padding: 5em;
+        min-height: 50vh;
+        max-height: auto;
+    }
+    
+    .what_container {
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+        gap: 2em;
+        place-items: center;
+    }
+    
+    .what_container>.what_items {
+        padding: 5em;
+        color: black;
+    }
+    
+    .portfolio_container {
+        height: auto;
+        display: grid;
+        gap: 5em;
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+        padding: 5em;
+        place-items: center;
+    }
+    
+    .portfolio_image {
+        max-height: 150em;
+    }
+    
+    .contact {
+        min-height: 70vh;
+        height: auto;
+        background-image: url(/static/images/assets/backgrounds/c_image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .form_container {
+        padding-top: 5em;
+        padding-right: clamp(2em, 10%, 50em);
+        padding-left: clamp(2em, 10%, 50em);
+    }
+    
+    .row {
+        padding: 1.5em 0em;
+    }
+    
+    footer {
+        display: grid;
+        place-items: center;
+        padding: 0.5em;
+    }
+    
+    #design_text {
+        display: none;
+    }
+    
+    #development_text {
+        display: none;
+    }
+    
+    #product_text {
+        display: none;
+    }
+    
+    .what_items {
+        cursor: pointer;
+    }
+    
+    #work1_items {
+        position: relative;
+        display: grid;
+        place-items: center;
+    }
+    
+    .portfolio_image {
+        position: relative;
+    }
+    
+    .work_text {
+        display: none;
+        position: absolute;
+        left: 5em;
+        bottom: 4.7em;
+    }
