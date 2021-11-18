@@ -130,5 +130,8 @@ footer {
 
 .what_items {
     cursor: pointer;
-    color: #0088cc;
+}
+
+.work_text {
+    display: none;
 }
