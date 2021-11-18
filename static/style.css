@@ -81,7 +81,9 @@ p {
 }
 
 .form_container {
-    padding-right: clamp(2em, 10em, 50em);
+    padding-top: 5em;
+    padding-right: clamp(2em, 10%, 50em);
+    padding-left: clamp(2em, 10%, 50em);
 }
 
 .row {
@@ -91,4 +93,5 @@ p {
 footer {
     display: grid;
     place-items: center;
+    padding: 1em;
 }
