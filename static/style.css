@@ -95,3 +95,15 @@ footer {
     place-items: center;
     padding: 1em;
 }
+
+#design_text {
+    display: none;
+}
+
+#development_text {
+    display: none;
+}
+
+#product_text {
+    display: none;
+}
