@@ -17,7 +17,7 @@ p {
     height: 80vh;
     width: auto;
     background-image: url(/static/images/assets/backgrounds/h_img.jpg);
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
     place-items: center;
 }
@@ -28,11 +28,15 @@ p {
 }
 
 .about {
-    height: 40vh;
+    padding: 0em 5em;
+    display: grid;
+    height: 50vh;
     width: 100vw;
+    place-items: center;
 }
 
 .services {
+    padding: 0em 5em;
     display: grid;
     color: white;
     height: 40vh;
@@ -48,21 +52,24 @@ p {
 
 .what {
     padding: 5em;
-    height: 50vh;
+    min-height: 50vh;
+    max-height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 2em;
+    place-items: center;
 }
 
-.portfolio {
-    height: 100vh;
+.portfolio_container {
+    height: auto;
     display: grid;
     gap: 5em;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    padding: 5em;
 }
 
 .portfolio_image {
-    max-height: 20em;
+    max-height: 150em;
 }
 
 footer {
