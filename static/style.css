@@ -17,7 +17,6 @@
         display: grid;
         height: 80vh;
         width: auto;
-        background-image: url(/static/images/assets/backgrounds/h_img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         place-items: center;
@@ -49,7 +48,6 @@
         min-height: 50vh;
         height: auto;
         width: 100vw;
-        background-image: url(/static/images/assets/backgrounds/s_image.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         place-items: center;
@@ -93,7 +91,6 @@
     .contact {
         min-height: 70vh;
         height: auto;
-        background-image: url(/static/images/assets/backgrounds/c_image.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
