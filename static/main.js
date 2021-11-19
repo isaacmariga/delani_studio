@@ -113,3 +113,9 @@ function w8Leave() {
     $("#work8_img").stop().animate({ "opacity": " 1" });
 
 };
+
+//contact
+
+$("#contact_btn").click(function() {
+    alert("Message sent successfully")
+});

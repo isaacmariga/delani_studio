@@ -148,3 +148,8 @@
         border-color: black;
         background-color: white;
     }
+    
+    #contact_btn {
+        margin-top: 2em;
+        align-self: center;
+    }
