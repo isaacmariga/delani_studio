@@ -132,10 +132,9 @@
         cursor: pointer;
     }
     
-    #work1_items {
+    .work_items {
         position: relative;
-        display: grid;
-        place-items: center;
+        overflow: hidden;
     }
     
     .portfolio_image {
@@ -145,6 +144,11 @@
     .work_text {
         display: none;
         position: absolute;
-        left: 5em;
-        bottom: 4.7em;
+        left: 1em;
+        bottom: 2.1em;
+        font-size: 3em;
+        border: 3px;
+        padding: 10px;
+        border-style: solid;
+        border-color: blue;
     }
