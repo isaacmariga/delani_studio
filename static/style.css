@@ -10,6 +10,7 @@
     p {
         text-align: center;
         align-self: center;
+        color: black;
     }
     
     .hero {
@@ -60,14 +61,12 @@
     }
     
     .what {
-        color: black;
         padding: 5em;
         min-height: 50vh;
         max-height: auto;
     }
     
     .what_container {
-        color: black;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
         gap: 2em;
@@ -76,7 +75,6 @@
     
     .what_container>.what_items {
         padding: 5em;
-        color: black;
     }
     
     .portfolio_container {
@@ -134,7 +132,7 @@
     
     .work_items {
         position: relative;
-        overflow: hidden;
+        cursor: pointer;
     }
     
     .portfolio_image {
@@ -150,5 +148,6 @@
         border: 3px;
         padding: 10px;
         border-style: solid;
-        border-color: blue;
+        border-color: black;
+        background-color: white;
     }
