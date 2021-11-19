@@ -9,7 +9,7 @@ None
 ## Live link
 * Follow the link https://isaacmariga.github.io/delani_studio/
 ## Known Bugs
-{main.js is not linked to index.html }
+n/a
 ## Technologies Used
 The site was built with HTML, CSS and Java Script
 ## Support and contact details
