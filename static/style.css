@@ -152,3 +152,8 @@
         margin-top: 2em;
         align-self: center;
     }
+    
+    .work_items:hover,
+    .what_items:hover {
+        transform: scale(1.1);
+    }
