@@ -170,5 +170,5 @@
     #form_name::placeholder,
     #form_email::placeholder,
     #form_message::placeholder {
-        color: rgb(255, 255, 255);
+        color: white;
     }
