@@ -161,3 +161,13 @@
     .what_items:hover {
         transform: scale(1.1);
     }
+    
+    .form-control {
+        background-color: transparent;
+    }
+    
+    #form_name::placeholder,
+    #form_email::placeholder,
+    #form_message::placeholder {
+        color: rgb(255, 255, 255);
+    }
