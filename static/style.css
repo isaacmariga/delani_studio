@@ -95,6 +95,7 @@
     }
     
     .form_container {
+        color: white;
         padding-top: 5em;
         padding-right: clamp(2em, 10%, 50em);
         padding-left: clamp(2em, 10%, 50em);
