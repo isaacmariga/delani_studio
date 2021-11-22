@@ -116,6 +116,12 @@ function w8Leave() {
 
 //contact
 
+function validateEmail($email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    return emailReg.test($email);
+}
+
 $("#contact_btn").click(function() {
-    alert("Message sent successfully")
+    alert("Kindly fill in the data in the next page")
+
 });
